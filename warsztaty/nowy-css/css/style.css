@@ -1,0 +1,84 @@
+body { 
+    margin: 0;
+    position: relative;
+}
+
+li > a {
+    text-decoration: none;
+    color: #fff;
+}
+
+li > a:hover{
+    color: grey;
+}
+#about{
+    
+    background-color: #fff;
+}
+#contact{
+    background-color: #222;
+}
+#menu{
+    background-color: #222;
+    text-align: center;
+    padding: 2px;
+}
+
+.menu-item{
+    text-align: center;
+    display: inline-block;
+    padding: 20px 20px 20px 20px;
+    list-style: none;
+}
+#header > img{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    position: absolute;
+    color: #fff;
+    font-size: 50px;
+    top: 50%;
+    left: 0;
+    right: 0;
+    bottom: 50%;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+#header{
+    text-align: center;
+    position: relative;
+}
+
+#about{
+    text-align: center;
+
+}
+#about-header{
+   font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-content{
+    font-size: 17px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#contact{
+    color: #fff;
+    text-align: center;
+}
+#contact-content > a{
+    color: #fff;
+}
+#contact-header{
+    font-size: 31px;
+    padding: 20px 0px 0px 0px;
+}
+
+footer > p {
+    padding: 0px 0px 20px 0px;
+}
