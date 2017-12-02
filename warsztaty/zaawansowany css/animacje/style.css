@@ -1,35 +1,38 @@
-#square1{
+#square1 {
     background-color: blue;
     transition: width 0.9s ease-in 0.1s;
 }
 
-#square1:hover{
+#square1:hover {
     width: 300px;
 }
 
-#square2{
+#square2 {
     background-color: orangered;
-        transition: height 0.9s ease-in 0.1s;
+    transition: height 0.9s ease-in 0.1s;
 
 }
-#square2:hover{
+
+#square2:hover {
     height: 300px;
 }
 
-#square3{
+#square3 {
     background-color: yellow;
     transition: all 0.9s ease-in 0.1s;
 }
-#square3:hover{
+
+#square3:hover {
     height: 300px;
     width: 300px;
 }
-.square{
-     width: 150px;
+
+.square {
+    width: 150px;
     height: 150px;
     margin: 30px;
     margin-top: 10px;
-margin-bottom: 10px;
+    margin-bottom: 10px;
     margin-left: auto;
     margin-right: auto;
 
