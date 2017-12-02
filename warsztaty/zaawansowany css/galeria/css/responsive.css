@@ -1,3 +1,7 @@
+#galery{
+    width: 100%;
+}
+
 @media (min-width:992px) and (max-width:2000px) {
 figure {
 width: 33%;
