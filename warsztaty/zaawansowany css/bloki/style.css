@@ -1,0 +1,23 @@
+#block1{
+    display: block;
+    background-color: blue;
+}
+#block2{
+    display: block;
+    background-color: orange;
+}
+#block3{
+    display: inline;
+    background-color: yellow;
+}
+#block4{
+    display: inline;
+    background-color: pink;
+}
+.square{
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+    background-color: darkcyan;
+    margin: 10px;
+}
