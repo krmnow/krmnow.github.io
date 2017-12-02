@@ -1,0 +1,35 @@
+#paragraf1>a:link{
+    text-decoration: none;
+    color: yellow;
+}
+
+#paragraf1>a:visited{
+    text-decoration: none;
+    color: red;
+}
+#paragraf2{
+    color: blue;
+}
+
+#paragraf2:target::before{
+    content: "przed";
+    color: green;
+}
+#paragraf2:target{
+    color: green;
+}
+#paragraf5>a{
+    text-decoration: none;
+}
+#paragraf5>a:visited{
+    text-decoration: none;
+}
+.klient:nth-last-child(even){
+    background-color: bisque;
+}
+.klient:nth-last-child(odd){
+    background-color: pink;
+}
+.klient:nth-child(5n+4){
+    background-color: green;
+}
