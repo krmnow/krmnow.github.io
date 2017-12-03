@@ -82,6 +82,8 @@ h3.third::after{
     float: left;
     margin-left: 18%;
     margin-top: 5%;
+    border: 5px solid red;
+    border-radius: 5%;
 }
 
 h3.second{
@@ -110,56 +112,96 @@ text-align: center;
     margin-right: 25%;
 }
 
-#img1 .hidden1{
+
+footer{
+    color: white;
+    background-color: #213b50;
+    margin-bottom: 0;
+}
+
+h4{
+    font-size: 30px;
+}
+h4::after{
+    content: " Nowak";
+    color: green;
+}
+#f1{
+    float: left;
+}
+#f2{
+    margin-right: 0;
+    margin-left: 80%;
+}
+
+input:focus {
+    background-color: #4e708c;
+    border: 1px solid white;
+}
+
+input {
+    background-color: #2b4a64;
+    border: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    width: 90%;
+    color: white;
+}
+
+.portfolio-item{
+    height: 350px;
+    background: no-repeat center cover;
+    display: inline-block;
+    width: 33.33333%;
     position: relative;
-    visibility: hidden;
 }
 
-.img {
-opacity: 1;
-transition: opacity 0.5s ease;
-display: inline-block;
-    width: 50%;
-    height: 50%;
+.portfolio-items{
+text-align: center;
+    font-size: 0;
 }
 
-
-
-
-#img1:hover .hidden1{
-    visibility: visible;
-}
-.img .hidden2{
-    position: relative;
-    visibility: hidden;
+#portfolio-item-1{
+    background-image: url(img/portfolio1.jpg);
 }
 
-.img .hidden3{
-    position: relative;
-    visibility: hidden;
+#portfolio-item-2{
+    background-image: url(img/portfolio2.jpg);
 }
 
-#img2:hover .hidden2{
-    visibility: visible;
+#portfolio-item-3{
+background-image: url(img/portfolio4.jpg);    
 }
-.img .hidden1{
-    position: relative;
-    visibility: hidden;
+.item-mask{
+font-size: initial;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(42, 61, 79, 0.8);
+    opacity: 0;
 }
 
-#img3:hover .hidden3{
-    visibility: visible;
+.item-mask:hover{
+    opacity: 1;
+    transition: all 0.3s ease-in-out;
 }
 
-#img1:hover{
-    opacity: 0.5;
-    
+textarea {
+    background-color: #2b4a64;
+    border: none;
+    color: #ffffff;
 }
-#img2:hover{
-    opacity: 0.5;
-    
+
+textarea:focus {
+    border: 1px solid white;
 }
-#img3:hover{
-    opacity: 0.5;
-    
+input[type=submit] {
+    background-color: #1ac056;
+    color: white;
+    border: none;
+    width: 75px;
+    height: 35px;
+}
+
+#f1 {
+    margin-left: 5%;
 }
