@@ -1,5 +1,7 @@
 body{
     position: relative;
+    margin: 0;
+        box-sizing: border-box;
 }
 header{
     position: relative;
@@ -48,4 +50,36 @@ text-align: center;
     right: 0;
     left: 0;
     font-size: 40px;
+}
+article{
+    color: black;
+}
+.with-photo{
+    
+}
+h3{
+    text-align: center;
+}
+h3.first::after{
+    content: " mnie";
+    color: green;
+}
+h3.second::after{
+    content: " umiejętności";
+    color: green;
+}
+h3.third::after{
+    content: " portfolio";
+    color: green;
+}
+.with-photo > img{
+    width: 20%;
+    height: 20%;
+    float: left;
+    margin-left: 18%;
+    margin-top: 5%;
+}
+
+h3.second{
+    clear: both;
 }
