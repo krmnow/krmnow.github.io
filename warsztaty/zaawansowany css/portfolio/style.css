@@ -2,15 +2,16 @@ body{
     position: relative;
 }
 header{
+    position: relative;
     background-image: url(img/header-background.jpg);
     background-position: center;
-background-size: cover;
+    background-size: cover;
 }
 
 nav > ul > li{
     color: #ffffff;
     display: inline-block;
-    margin: 10px;
+    margin: 25px;
 }
 
 nav > ul{
@@ -24,12 +25,27 @@ nav {
 
 h1{
     position: absolute;
-    color: #fff;
-    font-size: 50px;
-    top: 50%;
-    left: 0;
+    color: green;
+    text-align: center;
+    display: inline-block;
+    top: 20%;
+    bottom: 0;
     right: 0;
-    bottom: 50%;
-    margin: 0 auto;
-   
+    left: 0;
+    font-size: 140px;
+}
+h1:before{
+    content: "Jan ";
+    color: white;
+}
+h2{
+    position: absolute;
+text-align: center;
+    color: white;
+        display: inline-block;
+    top: 60%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    font-size: 40px;
 }
