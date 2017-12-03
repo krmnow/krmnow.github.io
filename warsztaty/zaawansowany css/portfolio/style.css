@@ -1,9 +1,10 @@
-body{
+body {
     position: relative;
     margin: 0;
-        box-sizing: border-box;
+    box-sizing: border-box;
 }
-header{
+
+header {
     position: relative;
     background-image: url(img/header-background.jpg);
     background-position: center;
@@ -19,7 +20,8 @@ nav > ul > li {
 nav > ul {
     text-align: right;
 }
-nav > ul > li > a{
+
+nav > ul > li > a {
     text-decoration: none;
     color: white;
 }
@@ -29,7 +31,7 @@ nav {
     height: 500px;
 }
 
-h1{
+h1 {
     position: absolute;
     color: green;
     text-align: center;
@@ -39,44 +41,52 @@ h1{
     right: 0;
     left: 0;
     font-size: 140px;
+    font-family: 'Roboto', sans-serif;
 }
-h1:before{
+
+h1:before {
     content: "Jan ";
     color: white;
 }
-h2{
+
+h2 {
     position: absolute;
-text-align: center;
+    text-align: center;
     color: white;
-        display: inline-block;
+    display: inline-block;
     top: 60%;
     bottom: 0;
     right: 0;
     left: 0;
     font-size: 40px;
+    font-family: 'Roboto', sans-serif;
 }
-article{
+
+article {
     color: black;
 }
-.with-photo{
-    
-}
-h3{
+
+h3 {
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
-h3.first::after{
+
+h3.first::after {
     content: " mnie";
     color: green;
 }
-h3.second::after{
+
+h3.second::after {
     content: " umiejętności";
     color: green;
 }
-h3.third::after{
+
+h3.third::after {
     content: " portfolio";
     color: green;
 }
-.with-photo > img{
+
+.with-photo > img {
     width: 20%;
     height: 20%;
     float: left;
@@ -86,11 +96,13 @@ h3.third::after{
     border-radius: 5%;
 }
 
-h3.second{
+h3.second {
     clear: both;
     margin-top: 20%;
+    font-family: 'Roboto', sans-serif;
 }
-#about{
+
+#about {
     margin-right: 5%;
     margin-left: 50%;
     margin-top: 5%;
@@ -98,40 +110,48 @@ h3.second{
 
 
 .icons {
-display: inline-block;
+    display: inline-block;
     margin: 35px;
 }
-.icons > p{
+
+.icons > p {
     text-align: center;
 }
-.my > p{
-text-align: center;
+
+.my > p {
+    text-align: center;
 }
-#block{
+
+#block {
     margin-left: 25%;
     margin-right: 25%;
 }
 
 
-footer{
+footer {
     color: white;
     background-color: #213b50;
     margin-bottom: 0;
 }
 
-h4{
+h4 {
     font-size: 30px;
+    font-family: 'Roboto', sans-serif;
 }
-h4::after{
+
+h4::after {
     content: " Nowak";
     color: green;
+    font-family: 'Roboto', sans-serif;
 }
-#f1{
+
+#f1 {
     float: left;
 }
-#f2{
-    margin-right: 0;
-    margin-left: 80%;
+
+form {
+    text-align: right;
+    padding: 100px;
 }
 
 input:focus {
@@ -142,13 +162,19 @@ input:focus {
 input {
     background-color: #2b4a64;
     border: none;
-    margin-top: 5%;
-    margin-bottom: 5%;
-    width: 90%;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    width: 600px;
     color: white;
 }
 
-.portfolio-item{
+#potrfolio{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    
+}
+
+.portfolio-item {
     height: 350px;
     background: no-repeat center cover;
     display: inline-block;
@@ -156,44 +182,65 @@ input {
     position: relative;
 }
 
-.portfolio-items{
-text-align: center;
+.portfolio-items {
+    text-align: center;
     font-size: 0;
 }
 
-#portfolio-item-1{
+#portfolio-item-1 {
     background-image: url(img/portfolio1.jpg);
 }
 
-#portfolio-item-2{
+#portfolio-item-2 {
     background-image: url(img/portfolio2.jpg);
 }
 
-#portfolio-item-3{
-background-image: url(img/portfolio4.jpg);    
+#portfolio-item-3 {
+    background-image: url(img/portfolio4.jpg);
 }
-.item-mask{
-font-size: initial;
+
+.item-mask {
+    font-size: initial;
     width: 100%;
     height: 100%;
     background-color: rgba(42, 61, 79, 0.8);
     opacity: 0;
 }
 
-.item-mask:hover{
+.item-mask:hover {
     opacity: 1;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.item-content {
+    color: #fff;
+    border: 1px solid white;
+    height: 330px;
+    position: relative;
+    margin: 10px;
+}
+
+.item-content-inner {
+    position: absolute;
+    padding: 5px;
+    left: 0;
+    right: 0;
+    top: 50%;
 }
 
 textarea {
     background-color: #2b4a64;
     border: none;
     color: #ffffff;
+    width: 600px;
+    margin-top: 8px;
+    margin-bottom: 8px;
 }
 
 textarea:focus {
     border: 1px solid white;
 }
+
 input[type=submit] {
     background-color: #1ac056;
     color: white;
@@ -204,4 +251,16 @@ input[type=submit] {
 
 #f1 {
     margin-left: 5%;
+}
+#foot{
+    background-color: darkblue;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+#foot > p{
+    margin-left: 60px;
 }
