@@ -10,14 +10,18 @@ header{
     background-size: cover;
 }
 
-nav > ul > li{
+nav > ul > li {
     color: #ffffff;
     display: inline-block;
     margin: 25px;
 }
 
-nav > ul{
+nav > ul {
     text-align: right;
+}
+nav > ul > li > a{
+    text-decoration: none;
+    color: white;
 }
 
 nav {
@@ -82,4 +86,80 @@ h3.third::after{
 
 h3.second{
     clear: both;
+    margin-top: 20%;
+}
+#about{
+    margin-right: 5%;
+    margin-left: 50%;
+    margin-top: 5%;
+}
+
+
+.icons {
+display: inline-block;
+    margin: 35px;
+}
+.icons > p{
+    text-align: center;
+}
+.my > p{
+text-align: center;
+}
+#block{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+#img1 .hidden1{
+    position: relative;
+    visibility: hidden;
+}
+
+.img {
+opacity: 1;
+transition: opacity 0.5s ease;
+display: inline-block;
+    width: 50%;
+    height: 50%;
+}
+
+
+
+
+#img1:hover .hidden1{
+    visibility: visible;
+}
+.img .hidden2{
+    position: relative;
+    visibility: hidden;
+}
+
+.img .hidden3{
+    position: relative;
+    visibility: hidden;
+}
+
+#img2:hover .hidden2{
+    visibility: visible;
+}
+.img .hidden1{
+    position: relative;
+    visibility: hidden;
+}
+
+#img3:hover .hidden3{
+    visibility: visible;
+}
+
+#img1:hover{
+    opacity: 0.5;
+    
+}
+#img2:hover{
+    opacity: 0.5;
+    
+}
+#img3:hover{
+    opacity: 0.5;
+    
 }
