@@ -12,6 +12,7 @@ header {
 }
 
 nav > ul > li {
+    font-family: 'Lato', sans-serif;
     color: #ffffff;
     display: inline-block;
     margin: 25px;
@@ -22,6 +23,8 @@ nav > ul {
 }
 
 nav > ul > li > a {
+
+    font-family: 'Lato', sans-serif;
     text-decoration: none;
     color: white;
 }
@@ -64,6 +67,7 @@ h2 {
 
 article {
     color: black;
+    font-family: 'Lato', sans-serif;
 }
 
 h3 {
@@ -166,12 +170,14 @@ input {
     margin-bottom: 4px;
     width: 600px;
     color: white;
+    font-family: 'Lato', sans-serif;
 }
 
-#potrfolio{
+#potrfolio {
     margin-top: 50px;
     margin-bottom: 100px;
-    
+    font-family: 'Lato', sans-serif;
+
 }
 
 .portfolio-item {
@@ -235,6 +241,7 @@ textarea {
     width: 600px;
     margin-top: 8px;
     margin-bottom: 8px;
+    font-family: 'Lato', sans-serif;
 }
 
 textarea:focus {
@@ -252,15 +259,57 @@ input[type=submit] {
 #f1 {
     margin-left: 5%;
 }
-#foot{
+
+#foot {
     background-color: darkblue;
     color: white;
     margin-top: 0;
     margin-bottom: 0;
     position: absolute;
     width: 100%;
+    font-family: 'Lato', sans-serif;
 }
 
-#foot > p{
+#foot > p {
     margin-left: 60px;
+}
+
+
+#fb{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+}
+
+#google{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 50px;
+    margin: 10px;    text-align: center;
+
+}
+
+#tw{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+
+}
+
+#linkid{
+    display: inline-block;
+    border: 1px solid #ffffff;
+    width: 50px;
+    height: 50px;
+  margin: 0 auto;
+    text-align: center;
+        vertical-align: bottom;
+
 }
