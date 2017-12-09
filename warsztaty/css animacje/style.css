@@ -1,0 +1,29 @@
+.rotate img{
+transform: rotate(20deg);
+}
+
+.transalte img{
+    transform: translate(200px, 200px);
+}
+
+.scale img{
+    transform: scale(1.5);
+    
+}
+
+.animation img{
+    animation-name: resize;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    
+}
+
+@keyframes resize{
+    0%, 100%{
+        
+        height: 300px;
+    }
+    
+    50% {
+height: 50px;}
+}
