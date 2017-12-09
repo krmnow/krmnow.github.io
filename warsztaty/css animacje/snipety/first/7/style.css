@@ -1,0 +1,7 @@
+a[href$=".doc"] {
+    color: chartreuse;
+}
+
+a[href$=".docx"] {
+    color: darkorange;
+}

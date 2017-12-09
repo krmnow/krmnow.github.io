@@ -1,0 +1,9 @@
+blockquote:lang(en){
+    color: red;
+}
+q:lang(en){
+    color: darkorange;
+}
+q:before, q:after, blockquote:before, blockquote:after{ content: "''";} 
+
+q:lang(en):before, q:lang(en):after, blockquote:lang(en):before, blockquote:lang(en):after{ content: "*";} 
