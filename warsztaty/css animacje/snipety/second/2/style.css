@@ -1,0 +1,73 @@
+#container{
+    width: 100%;
+    height: 640px;
+    background-color: chartreuse;
+    position: relative;
+    margin-top: 0;
+}
+
+.kurtyna1{
+    background-color: fuchsia;
+    width: 1200px;
+    height: 320px;
+    animation-name: top;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    position: absolute;
+   bottom: 0;
+
+    
+}
+
+.kurtyna2{
+    position: absolute;
+background-image: url(szczyty-tatr.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1200px;
+    height: 320px;
+    animation-name: bottom;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    display: block;
+
+}
+
+@keyframes top{
+0% {
+    visibility: visible;
+height: 100px;
+    bottom: 0px;
+    }
+50% {
+     visibility: visible;
+height: 200px;
+    bottom:0px;
+
+    }
+100% {
+     visibility: visible;
+height: 320px;
+    bottom: 0px;
+    }}
+
+
+@keyframes bottom{
+0% {
+     visibility: visible;
+height: 100px;
+    top: 0px;
+    }
+50% {
+     visibility: visible;
+height: 200px;
+    top: 0px;
+
+    }
+100% {
+     visibility: visible;
+height: 320px;
+    top: 0px;
+    }}
