@@ -1,0 +1,20 @@
+.pause{
+    height:500px;
+    background-color:red;
+    font-size:36px;
+}
+
+.parallax{
+        min-height: 500px; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#tatry{
+          background-image: url(szczyty-tatr.jpg);
+
+}
+#sea{
+    background-image: url(morze-ba%C5%82tyckie-ekosystem-640x413.jpg);
+}
