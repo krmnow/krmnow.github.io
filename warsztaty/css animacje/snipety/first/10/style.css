@@ -1,0 +1,18 @@
+#cont {
+    overflow: hidden;
+    height: 500px;
+    width: 500px;
+
+}
+
+#container {
+    height: 500px;
+    widows: 500px;
+    background-image: url(rysy.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#container:hover {
+    transform: scale(1.3);
+}
