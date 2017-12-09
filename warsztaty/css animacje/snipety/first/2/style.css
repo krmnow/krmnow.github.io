@@ -1,0 +1,29 @@
+.button{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: crimson;
+    position: relative;
+    
+}
+.inside{
+        position: absolute;
+    right: 25%;
+    left: 25%;
+    top: 25%;
+    bottom: 25%;
+}
+
+.button:hover{
+    background-color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    
+}
+
+.button:hover> i{
+    
+    background-color: red;
+}
+
+    

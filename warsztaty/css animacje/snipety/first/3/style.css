@@ -1,0 +1,6 @@
+.rainbow{
+    
+    width: 1200px;
+    height: 50px;
+    background: -moz-linear-gradient(right, orange, yellow, green, cyan, blue, violet);
+}
