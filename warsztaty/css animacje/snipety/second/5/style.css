@@ -1,35 +1,51 @@
-#container{
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 0;
+}
+
+.container{
     width: 100%;
-    height: 100vh;
+    height: auto;
+    overflow: hidden;
     position: relative;
 }
-.column {
-    width: 20%;
-    height: 100vh;
-    position: absolute;
 
-}
-
-.section{
-    width: 20%;
+.column{
     height: 100vh;
+    width: 25%;
+    transition: all 0.5 linear;
     display: inline-block;
 }
+
+.background{
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 #first{
-    
-    background-color: blue;
+background-image: url(14546717648516.jpg);
 }
 
 #second{
+    background-image: url(7040162-mountains-background.jpg);
     
-    background-color: red;
 }
 
 #third{
-    
-    background-color: green;
+background-image: url(G%C3%B3ry-Tianzi-w-Chinach-gdzie-kr%C4%99cono-uj%C4%99cia-lataj%C4%85cych-g%C3%B3r-do-filmu-Avatar-14.jpg);
 }
 #fourth{
-    
-    background-color: cyan;
+background-image: url(chromastock-95187134_201604101433.jpg);
+}
+
+.column:hover{
+    width: 40%;
+}
+
+.container:hover .column:not(:hover){
+    width: 20%;
 }
