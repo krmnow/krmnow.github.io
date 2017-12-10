@@ -1,0 +1,60 @@
+body {
+    background-color: darkcyan;
+}
+
+#container {
+    margin-top: 100px;
+    margin-left: 200px;
+    width: 200px;
+    height: 200px;
+    position: relative;
+}
+
+
+.small {
+    position: absolute;
+    width: 70px;
+    height: 70px;
+
+}
+
+#square1 {
+    background-color: aqua;
+    top: 0;
+    left: 0;
+        animation: spin 4s linear infinite; 
+
+}
+
+#square2 {
+    background-color: firebrick;
+    bottom: 0;
+    right: 0;
+        animation: spin2 4s linear infinite; 
+
+}
+
+@keyframes spin {
+    25% {
+        transform: rotate(90deg) translate(0px, -50px) scale(0.8);
+    }
+    
+    50% {
+        transform: rotate(180deg) translate(50px, 0px) scale(0.6);
+    }
+    
+    75% {
+        transform: rotate(270deg) translate(0px, 50px) scale(0.4);
+    }
+    
+    100% {
+        transform: rotate(360deg) translate(-50px, 0px) scale(0.2);
+    }
+    
+}
+
+@keyframes spin2 {
+    0% {
+        transform: rotate(360deg) translate(30px, 30px) scale(0.4);
+    }
+}
