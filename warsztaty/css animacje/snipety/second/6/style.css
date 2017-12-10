@@ -45,3 +45,8 @@ from { transform: rotate(360deg) rotate(0deg) ; }
     to   { transform: rotate(0deg) rotate(360deg); }
     
 }
+
+.column:last-child{
+    position: absolute;
+    right: 0;
+}
