@@ -1,73 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+
 #container{
     width: 100%;
-    height: 640px;
-    background-color: chartreuse;
-    position: relative;
-    margin-top: 0;
+    height: 100vh;
+    background-color: aqua;
+
 }
 
-.kurtyna1{
-    background-color: fuchsia;
-    width: 1200px;
-    height: 320px;
-    animation-name: top;
-    animation-duration: 3s;
-    animation-iteration-count: 1;
-    animation-timing-function: linear;
+.curtain{
     position: absolute;
-   bottom: 0;
-
-    
-}
-
-.kurtyna2{
-    position: absolute;
-background-image: url(szczyty-tatr.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    width: 1200px;
-    height: 320px;
-    animation-name: bottom;
-    animation-duration: 3s;
+    width: 100%;
+    height: 50vh;
+    animation-duration: 2s;
     animation-iteration-count: 1;
-    animation-timing-function: linear;
-    display: block;
-
 }
 
-@keyframes top{
-0% {
-    visibility: visible;
-height: 100px;
-    bottom: 0px;
-    }
-50% {
-     visibility: visible;
-height: 200px;
-    bottom:0px;
+.top{
+    background-color: firebrick;
+    animation-name: top-down;
+    bottom: 50vh;
+}
+.bottom{
+        background-color: blue;
+    animation-name: down-top;
+    top: 50vh;
+}
 
+@keyframes top-down{
+    0%{
+        bottom: 100vh;
     }
-100% {
-     visibility: visible;
-height: 320px;
-    bottom: 0px;
-    }}
-
-
-@keyframes bottom{
-0% {
-     visibility: visible;
-height: 100px;
-    top: 0px;
+    100%{
+        bottom: 50vh;
     }
-50% {
-     visibility: visible;
-height: 200px;
-    top: 0px;
+}
 
+@keyframes down-top{
+    0%{
+        top: 100vh;
     }
-100% {
-     visibility: visible;
-height: 320px;
-    top: 0px;
-    }}
+    100%{
+        top: 50vh;
+    }
+}

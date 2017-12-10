@@ -1,16 +1,19 @@
-i{
-    animation-name: resize;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
-    
+*{
+    box-sizing: border-box;
+    text-align: center;
 }
 
-@keyframes resize{
-    0%, 100%{
-        
-        font-size: 20px;
-    }
+.pulse{
+    color: red;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse{
     
-    50% {
-font-size: 40px;}
+    0%, 100%{
+        transform: scale(1);
+    }
+    50%{
+transform: scale(1.5);
+    }
 }
