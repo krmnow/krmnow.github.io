@@ -15,3 +15,4 @@ console.log(names);
 
 var liczby = [1, 2, 0, 10, 1342, 323432];
 console.log(liczby.sort());
+
