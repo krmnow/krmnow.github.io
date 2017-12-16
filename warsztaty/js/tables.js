@@ -10,5 +10,8 @@ names[2] = 'Kuba';
 names.push('Miłosz');
 var ostatniElement = names.pop();
 names.unshift('Robert');
+console.log(names.sort());
 console.log(names);
-console.log(ostatniElement);
+
+var liczby = [1, 2, 0, 10, 1342, 323432];
+console.log(liczby.sort());
