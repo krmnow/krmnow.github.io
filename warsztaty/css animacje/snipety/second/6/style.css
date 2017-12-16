@@ -1,52 +1,48 @@
-body {
-    background-color: darkcyan;
+body{
+    margin: 0;
 }
 
-#container {
-    margin-top: 100px;
-    margin-left: 200px;
+#container{
+    
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background-color: deepskyblue;
+}
+
+.loader{
+    
     width: 100px;
     height: 100px;
-    position: relative;
-}
-
-
-.small {
     position: absolute;
-    width: 50px;
-    height: 50px;
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
-#square1 {
-    background-color: aqua;
-    top: 0;
-    left: 0;
-        animation: spin 4s linear infinite; 
-
+.small{
+    
+    height: 30px;
+    width: 30px;
+    background-color: white;
+    position: absolute;
+    transform: rotate(0deg;)
 }
 
-#square2 {
-    background-color: firebrick;
+.square:last-child{
     bottom: 0;
     right: 0;
-        animation: spin2 4s linear infinite; 
-
+    animation-name: load-two;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
 
-@keyframes spin {
-from { transform: rotate(0deg) rotate(0deg) ; }
-    to   { transform: rotate(360deg) rotate(360deg); }
-    
-}
-
-@keyframes spin2 {
-from { transform: rotate(360deg) rotate(0deg) ; }
-    to   { transform: rotate(0deg) rotate(360deg); }
-    
-}
-
-.column:last-child{
-    position: absolute;
-    right: 0;
+.square:first-child{
+    top: 0;
+    left: 0;
+    animation-name: load-one;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
 }
