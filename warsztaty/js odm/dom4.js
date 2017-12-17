@@ -14,6 +14,8 @@ var parFirstDiv = document.getElementById('parFirst');
 parFirstDiv.replaceChild(newElement, istniejacyWezel);
 
 
+//własny przykład: usuwanie klas i dodwanie br za linkami
+
 var wszystkieLinki = document.getElementsByTagName('a');
 
 for (var i = 0; i < wszystkieLinki.length; i++) {
@@ -21,3 +23,4 @@ for (var i = 0; i < wszystkieLinki.length; i++) {
     wszystkieLinki[i].removeAttribute('class');
     wszystkieLinki[i].parentElement.insertBefore(br, wszystkieLinki[i].nextSibling);
 }
+
