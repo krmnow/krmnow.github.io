@@ -6,3 +6,17 @@ console.log(linki);
 
 var linkiPoTagu = document.getElementsByTagName('a');
 console.log(linkiPoTagu);
+
+var divPoId = document.querySelector('#parSecond');
+console.log(divPoId);
+
+var linkiPoSelektorze = document.querySelectorAll('.link');
+console.log(linkiPoSelektorze);
+
+linkiPoSelektorze.forEach(function (link) {
+    console.log(link);
+
+});
+for (var i = 0; i < linkiPoSelektorze.length; i++) {
+    console.log(linkiPoSelektorze[i]);
+}
