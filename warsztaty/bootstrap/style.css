@@ -1,0 +1,21 @@
+.container-example{
+    height: 300px;
+    background-color: fuchsia;
+}
+
+.contariner-example2{
+    height: 300px;
+    background-color: red;
+}
+
+.element-1{
+    background-color: blue;
+    height: 100px;
+}
+.element-2{
+background-color: firebrick;
+    height: 120px;
+}
+.element-3{
+background-color: darkorchid;
+}
