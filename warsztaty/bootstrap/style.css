@@ -19,3 +19,13 @@ background-color: firebrick;
 .element-3{
 background-color: darkorchid;
 }
+
+.item{
+    height: 400px;
+    background-color: skyblue;
+    border-bottom: 1px solid black;
+}
+
+.item:nth-child(2n){
+    background-color: goldenrod;
+}
