@@ -1,0 +1,68 @@
+@import "mixiny";
+@import "zmienne";
+
+.finanse{
+    .fa-university{
+    color: $orangeTekst;
+    }
+}
+.formularz{
+    background-color: $boxcolor;
+    width: 250px;
+    height: 330px;
+}
+
+.formularz{
+    .formularz-wlasciwy{
+        input{
+        @include formularze;
+        }
+    }
+}
+.formularz{
+    textarea{
+        @include formularze;
+        height: 40px;
+    }
+}
+
+.formularz, .finanse, .call{
+    @include absolute;
+}
+
+.formularz{
+    left: 60%;
+    top: 40%;
+}
+
+.finanse{
+    left: 20%;
+}
+
+.call{
+left: 66%;
+}
+.phone, .number{
+    display: inline-block;
+}
+
+button{
+    margin-left: 10px;
+    height: 40px;
+    width: 60px;
+    background-color: $orangeTekst;
+    color: black;
+}
+
+
+.sprawy-finansowe{
+    @include absolute;
+    width: 250px;
+    margin-left: 60%;
+}
+
+.zostaw-dane{
+display: inline-block;
+    margin-left: 10px;
+    
+}

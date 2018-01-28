@@ -1,0 +1,29 @@
+@import "mixiny";
+@import "zmienne";
+
+#lower{
+    background-color: dimgray;
+    padding: 50px 0;
+}
+.phone-footer{
+    text-align: center;
+    margin-bottom: 30px;
+    
+    .fa{
+        background-color: orange;
+        color: #000;
+        height: 50px;
+        width: 50px;
+        font-size: 25px;
+        text-align: center;
+        line-height: 50px;
+        display: block;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+}
+
+p{
+text-align: center;
+    font-size: 0.8em;
+}

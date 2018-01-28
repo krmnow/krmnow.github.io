@@ -1,0 +1,28 @@
+@import "zmienne";
+
+@mixin formularze {
+    width: 220px;
+    height: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+;
+
+@mixin tlo {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+@mixin absolute {
+    position: absolute;
+}
+
+@mixin square{
+    width: 40px;
+    height: 40px;
+    background-color: $orangeTekst;
+    color: black;
+}

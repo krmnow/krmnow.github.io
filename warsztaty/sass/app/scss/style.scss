@@ -1,0 +1,28 @@
+@import "zmienne";
+
+
+@mixin menu-nawigacyjne{
+    color: red;
+    font-size: 22px;
+}
+
+body {
+    color: $base-color;
+    background-color: $bg-color;
+}
+nav {
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        
+        li{
+            display: inline-block;
+            
+            a{
+                @include menu-nawigacyjne;
+            }
+        }
+    }
+    
+}
