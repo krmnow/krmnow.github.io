@@ -15,20 +15,21 @@
 			<input type="email" name="mail" id="mail"><br>
 			<label for="phone">Telefon</label><br>
 			<input type="tel" name="phone" id="phone"><br><br>
-			<label for="city">Wybierz miasto</label><br><br>
-			<select name="city">
-			<option value="krakow" name="city" >Kraków</option>
-			<option value="warszawa" name="city">Warszawa</option>
-			<option value="gdansk" name="city" >Gdańsk</option>
- 			</select> <br><br>
-			<label for="gender">Wybierz płeć</label><br>
-			<input type="radio" name="gender" value="male" id="male"> <label for="male">Mężczyzna</label><br>
-			<input type="radio" name="gender" value="female" id="female"> <label for="female">Kobieta</label><br>
+			<label for="miasto">Wybierz miasto</label><br><br>
+			<select name="miasto" id="miasto">
+				<option>Kraków</option>
+				<option>Gdańsk</option>
+				<option>Warszawa</option>
+			</select><br><br>
+			<label for="male">Mężczyzna</label>
+			<input type="radio" name="gender" id="male" value="male"><br>
+			<label for="female">Kobieta</label>
+			<input type="radio" name="gender" id="female" value="female"><br>
 			<br>
-			<label for="accept">Akceptacja na wysłanie danych osobowych</label><br><br>
-			<input type="checkbox" name="accept" value="yes"> <label for="yes">Akceptuję </label><br><br>
-			<label for="message">Napisz nam wiadomość:</label><br>
-			<textarea name="message" maxlength="100"></textarea><br><br>
+			<input type="checkbox" name="checkbox" id="checkbox_id" value="value">
+			<label for="checkbox_id">Akceptuję wysyłke danych osobowych</label>	<br> <br>
+			<label for="textarea">Napisz nam wiadomość</label><br><br>
+			<textarea id="textarea" rows="5"></textarea><br><br>
 			<input type="submit" name="submit" value="Wyślij">
 		</form>
 	</body>
