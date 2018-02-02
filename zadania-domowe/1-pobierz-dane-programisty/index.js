@@ -7,7 +7,7 @@ $(function () {
                 '<br> Nazwisko: ' + data.nazwisko +
                 '<br> Zawód: ' + data.zawod +
                 '<br> Firma: ' + data.firma
-                             </div>
+                             </div>'
             );
 
         });
