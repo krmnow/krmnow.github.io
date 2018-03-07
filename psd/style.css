@@ -1,0 +1,124 @@
+*{
+	box-sizing: border-box;
+}
+header{
+	background-color: #4b074b;
+}
+
+nav{
+width: 60%;
+color: #fff;
+}
+footer{
+position: relative;
+width: 60%;
+height: 120px;
+margin-left: auto;
+margin-right: auto;
+border-top: 1px solid pink;
+}
+footer p{
+text-align: center;
+font-size: 15px;
+}
+
+#first-section, #second-section, nav{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 60%;
+}
+
+.query{
+position: relative;
+margin-left: auto;
+margin-right: auto;
+width: 500px;
+height: 500px;
+background-color: white;
+top: 50px;
+}
+.decision{
+display: block;
+width: 100%;
+background-color: white;
+height: 40px;
+border-radius: 0;
+border: 1px solid black;
+margin-top: 10px;
+}
+.decision:hover{
+background-color: #e20036;
+color: white;
+border: none;
+}
+.arrow{
+width: 245px;
+height: 49px;
+border-radius: 0;
+border: 1px solid black;
+margin-top: 20px;
+}
+.arrow:hover{
+background-color: #e20036;
+color: white;
+border: none;
+}
+.previous::before{
+content: "<< ";
+}
+.next::after{
+content: " >>";
+}
+.query h2::before{
+content: "2";
+color: red;
+}
+.query h1, h2, p{
+text-align: center;
+}
+.query h2{
+font-size: 35px;
+}
+.promo-text{
+position: relative;
+width: 410px;
+height: 190px;
+top: 10%;
+margin-left: 10%;
+}
+.promo-text h1{
+color: red;
+font-size: 15px;
+}
+.promo-text h2{
+color: black;
+font-size: 15px;
+margin-left: 18%;
+}
+.promo-text h2::after {
+content: " OD L-OREAL PARIS!";
+}
+.promo-text .copy{
+font-size: 14px;
+text-align: left;
+}
+.portrait{
+height: 50vh;
+background-image: url(andie.jpg);
+background-position: center;
+background-size: cover;
+}
+.revitalif{
+	height: 50vh;
+background-image: url(produkt3.jpg);
+background-size: 100% 100%;
+background-repeat: no-repeat;
+}
+
+.links{
+	width: 10%;
+}
+.social{
+	font-size: 12px;
+}
